@@ -1,5 +1,7 @@
 import puntos.ejercicio1.SistemaAlumnos;
 import puntos.ejercicio2.ListaConversores;
+import puntos.ejercicio3.Operaciones;
+import puntos.ejercicio4.SistemaReservas;
 
 import javax.swing.*;
 
@@ -26,8 +28,10 @@ public class Taller2_Softlondo {
                     ListaConversores.conversores();
                     break;
                 case 3:
+                    Operaciones.operando();
                     break;
                 case 4:
+                    SistemaReservas.reservar();
                     break;
                 default:
 
